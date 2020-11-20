@@ -1,9 +1,63 @@
+/*============================
+
+Universal Styling
+
+
+*=========================*/
+
+*{
+padding: 0;
+margin: 0;
+border:0;
+font-family: "Roboto"
+}
+
 @font-face {
   font-family: 'TravelingType';
   src: url('../Fonts/TravelingType.ttf')
   format('truetype');
 }
+/*============================
 
+Header Styling
+
+
+*=========================*/
+header{
+  background: rgb(255 255 255 / 70%);
+  text-align: center;
+  padding: 30px 15px;
+  width: 100%;
+  z-index: 999;
+}
+
+nav{
+  position: relative;
+  max-width: 100%;
+}
+
+header li{
+  display: inline;
+  width: 24%;
+  padding: 15px;
+}
+
+header li a{
+  color: grey;
+  text-transform: capitalize;
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: bold;
+  width: 24%;
+  font-size: 25px;
+  }
+
+/*============================
+
+Body Styling
+
+
+*=========================*/
 body{
   font-family: 'Roboto', sans-serif;
   color: #808080;
