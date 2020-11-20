@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'TravelingType';
+  src: url('../Fonts/TravelingType.ttf')
+  format('truetype');
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #808080;
+  background-image: url('../images/cast.jpg');
+  background-size: 100%;
+}
+
+h2{
+  color: #808080;
+  text-align: left;
+  text-decoration: underline;
+}
+
+h3{
+  color: #808080;
+  text-decoration: underline;
+}
+
+h1{
+  color: #808080;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'TravelingType',cursive;
+}
+
+section{
+  background: #f2f2f2;
+  max-width: 1000px;
+  margin: 100px;
+  padding: 30px;
+}
+
+img{
+  display: block;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+td,th,table{
+  border: 1px solid black;
+}
+
+thead{
+  font-style: italic;
+}
+
+.top{
+  background:#ffd700;
+  max-width: 1000px;
+  margin: 100px;
+  padding: 10px;
+  border: 7px solid #808080;
+  border-radius: 50px;
+}
+
+#name{
+  Font-style: italic;
+}
+
+#title{
+  text-transform: uppercase;
+}
