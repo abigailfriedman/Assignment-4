@@ -44,12 +44,17 @@ header li{
 
 header li a{
   color: grey;
-  text-transform: capitalize;
+  text-transform: uppercase;
   text-decoration: none;
   list-style-type: none;
   font-weight: bold;
-  width: 24%;
   font-size: 25px;
+  transition: .3s;
+  }
+
+  header li a:hover{
+    color: black;
+    transition: .3s;
   }
 
 /*============================
