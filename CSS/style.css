@@ -143,12 +143,18 @@ Body Styling
 
 .intro{
   margin: auto;
-  padding: 30px;
+  padding: 50px 30px;
   align: center;
   position: absolute;
   min-width: 700px;
   top: 500px;
   background-color: grey;
+}
+
+.Synopsis:before{
+  background-image: url('../images/2girls.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .Synopsis{
