@@ -4,12 +4,11 @@ Universal Styling
 
 
 *=========================*/
-
 *{
 padding: 0;
 margin: 0;
 border:0;
-font-family: "Roboto"
+font-family: "Roboto", sans-serif;
 }
 
 @font-face {
@@ -24,16 +23,14 @@ Header Styling
 
 *=========================*/
 header{
-  background: rgb(255 255 255 / 70%);
+  background: black;
+  opacity: 70%;
   text-align: center;
   padding: 30px 15px;
   width: 100%;
+  position: absolute;
   z-index: 999;
-}
-
-nav{
-  position: relative;
-  max-width: 100%;
+  top: 0;
 }
 
 header li{
@@ -53,7 +50,7 @@ header li a{
   }
 
   header li a:hover{
-    color: black;
+    color: white;
     transition: .3s;
   }
 
@@ -63,11 +60,10 @@ Body Styling
 
 
 *=========================*/
-body{
-  font-family: 'Roboto', sans-serif;
+p{
   color: #808080;
-  background-image: url('../images/cast.jpg');
-  background-size: 100%;
+  font-size: 15px;
+  line-height: 25px;
 }
 
 h2{
@@ -90,9 +86,10 @@ h1{
 
 section{
   background: #f2f2f2;
-  max-width: 1000px;
-  margin: 100px;
+  max-width: 600px;
+  margin: auto;
   padding: 30px;
+
 }
 
 img{
@@ -112,6 +109,15 @@ thead{
 }
 
 .top{
+  background-image: url('../images/cast.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 500px;
+  z-index: 2
+}
+
+.top-content{
   background:#e0d07b;
   max-width: 80%;
   min-width: 300px;
@@ -120,6 +126,10 @@ thead{
   border: 7px solid #808080;
   border-radius: 50px;
   overflow-x: hidden;
+}
+
+.intro{
+  background: grey;
 }
 
 #name{
