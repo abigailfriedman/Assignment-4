@@ -191,7 +191,7 @@ Intro Body Styling
   background-color: grey;
   opacity: 70%;
   margin: auto;
-  padding: 100px 100px;
+  padding: 100px;
   height: 600px;
   min-width: 500px;
   width: 100%;
@@ -200,6 +200,7 @@ Intro Body Styling
   top: 1100px;
   overflow: scroll;
 }
+
 /*============================
 
  Cast Styling
