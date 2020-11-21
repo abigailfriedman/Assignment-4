@@ -16,6 +16,53 @@ font-family: "Roboto", sans-serif;
   src: url('../Fonts/TravelingType.ttf')
   format('truetype');
 }
+
+p{
+  color: #808080;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+h2{
+  color: #808080;
+  text-align: left;
+  text-decoration: underline;
+}
+
+h3{
+  color: #808080;
+  text-decoration: underline;
+}
+
+h1{
+  color: #808080;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'TravelingType',cursive;
+}
+
+section{
+  background: #f2f2f2;
+  max-width: 600px;
+  margin: auto;
+  padding: 30px;
+}
+
+img{
+  display: block;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+td,th,table{
+  border: 1px solid black;
+}
+
+thead{
+  font-style: italic;
+}
 /*============================
 
 Header Styling
@@ -53,61 +100,12 @@ header li a{
     color: white;
     transition: .3s;
   }
-
 /*============================
 
-Body Styling
+Top Styling
 
 
 *=========================*/
-p{
-  color: #808080;
-  font-size: 15px;
-  line-height: 25px;
-}
-
-h2{
-  color: #808080;
-  text-align: left;
-  text-decoration: underline;
-}
-
-h3{
-  color: #808080;
-  text-decoration: underline;
-}
-
-h1{
-  color: #808080;
-  text-align: center;
-  font-weight: bold;
-  font-family: 'TravelingType',cursive;
-}
-
-section{
-  background: #f2f2f2;
-  max-width: 600px;
-  margin: auto;
-  padding: 30px;
-
-}
-
-img{
-  display: block;
-  border-radius: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-}
-
-td,th,table{
-  border: 1px solid black;
-}
-
-thead{
-  font-style: italic;
-}
-
 .top{
   background-image: url('../images/cast.jpg');
   background-repeat: no-repeat;
@@ -129,6 +127,12 @@ thead{
   border-radius: 50px;
   overflow-x: hidden;
 }
+/*============================
+
+Body Styling
+
+
+*=========================*/
 
 .intro{
   background: grey;
