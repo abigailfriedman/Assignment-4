@@ -200,7 +200,6 @@ Intro Body Styling
   top: 1100px;
   overflow: scroll;
 }
-
 /*============================
 
  Cast Styling
@@ -235,6 +234,11 @@ Awards Styling
   align: center;
   position: absolute;
   top: 2400px;
+}
+
+.awards table{
+  margin: 50px 200px;
+  align: center;
 }
 
 #name{
