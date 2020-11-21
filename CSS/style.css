@@ -146,6 +146,11 @@ Top Styling
   overflow-x: hidden;
   overflow-y: hidden;
   z-index: 1;
+  animation-name: word;
+  animation-duration: 17s;
+  animation-timing-function: ease-in;
+  animation-direction: forward;
+  animation-iteration-count: infinite;
 }
 /*============================
 
@@ -254,4 +259,13 @@ span{
 
 #title{
   text-transform: uppercase;
+}
+
+@keyframes word {
+  from {
+    left: -1000px;
+  }
+  to {
+    left: 1600px;
+  }
 }
