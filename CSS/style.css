@@ -41,11 +41,15 @@ h1{
   font-family: 'TravelingType',cursive;
 }
 
-section{
+div{
   background: #f2f2f2;
-  max-width: 600px;
-  margin: auto;
-  padding: 30px;
+  position: relative;
+  width: 100%;
+}
+
+section{
+  max-width: 700px;
+  max-height: 550px;
 }
 
 img{
@@ -135,7 +139,36 @@ Body Styling
 *=========================*/
 
 .intro{
-  background: grey;
+  margin: auto;
+  padding: 30px;
+  align: center;
+  position: absolute;
+  top: 500px;
+}
+
+.Synopsis{
+  margin: auto;
+  padding: 30px;
+  align: center;
+  position: absolute;
+  top: 1100px;
+  overflow: scroll;
+}
+
+.Cast{
+  margin: auto;
+  padding: 30px;
+  align: center;
+  position: absolute;
+  top: 1600px;
+}
+
+.Recption_and_Awards{
+  margin: auto;
+  padding: 30px;
+  align: center;
+  position: absolute;
+  top: 2000px;
 }
 
 #name{
