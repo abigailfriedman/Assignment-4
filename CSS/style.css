@@ -61,12 +61,24 @@ section{
   float: right;
 }
 
+/*============================
+
+Table Styling
+
+
+*=========================*/
 td,th,table{
-  border: 1px solid black;
+  border: 3px solid black;
+}
+
+td{
+  color: white;
+  font-size: 20px;
 }
 
 thead{
   font-style: italic;
+  color: white;
 }
 /*============================
 
@@ -171,7 +183,7 @@ Top Body Styling
 }
 /*============================
 
- Body Styling
+ Synopsis Styling
 
 
 *=========================*/
@@ -179,24 +191,34 @@ Top Body Styling
   background-color: grey;
   opacity: 70%;
   margin: auto;
-  padding: 100px;
+  padding: 100px 300px;
   height: 600px;
+  max-width: 500px;
   width: 100%;
   align: center;
   position: absolute;
   top: 1100px;
   overflow: scroll;
 }
+/*============================
 
+ Cast Styling
+
+
+*=========================*/
 .Cast{
   background-color: grey;
   height: 400px;
   width: 100%;
-  margin: auto;
-  padding: 30px;
+  padding: 100px;
   align: center;
+  position: relative;
+  top: 1200px;
+}
+
+.table_cast{
   position: absolute;
-  top: 1800px;
+  right: auto;
 }
 
 .Recption_and_Awards{
@@ -204,7 +226,7 @@ Top Body Styling
   padding: 30px;
   align: center;
   position: absolute;
-  top: 2000px;
+  top: 2500px;
 }
 
 #name{
