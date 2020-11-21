@@ -237,6 +237,11 @@ Awards Styling
   top: 2400px;
 }
 
+span{
+  color: black;
+  font-style: italic;
+}
+
 .awards table{
   margin: 5px 200px;
   align: center;
