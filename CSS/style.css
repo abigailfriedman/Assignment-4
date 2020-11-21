@@ -148,7 +148,7 @@ Top Styling
 }
 /*============================
 
-Top Body Styling
+Intro Body Styling
 
 
 *=========================*/
@@ -191,9 +191,9 @@ Top Body Styling
   background-color: grey;
   opacity: 70%;
   margin: auto;
-  padding: 100px 300px;
+  padding: 100px 100px;
   height: 600px;
-  max-width: 500px;
+  min-width: 500px;
   width: 100%;
   align: center;
   position: absolute;
@@ -230,7 +230,7 @@ Awards Styling
   background: grey;
   opacity: 70%;
   margin: auto;
-  padding: 70px;
+  padding: 100px;
   align: center;
   position: absolute;
   top: 2400px;
