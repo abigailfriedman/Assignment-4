@@ -31,7 +31,7 @@ h2{
 }
 
 h3{
-  color: #808080;
+  color: white;
   text-decoration: underline;
 }
 
@@ -220,13 +220,20 @@ Top Body Styling
   position: absolute;
   right: auto;
 }
+/*============================
 
+Awards Styling
+
+
+*=========================*/
 .Recption_and_Awards{
+  background: grey;
+  opacity: 70%;
   margin: auto;
-  padding: 30px;
+  padding: 70px;
   align: center;
   position: absolute;
-  top: 2500px;
+  top: 2400px;
 }
 
 #name{
