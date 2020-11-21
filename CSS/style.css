@@ -36,10 +36,12 @@ h3{
 }
 
 h1{
-  color: #808080;
+  color: white;
   text-align: center;
   font-weight: bold;
   font-family: 'TravelingType',cursive;
+  font-size: 50px;
+  text-shadow: 1px 1px 2px white;
 }
 
 div{
@@ -49,12 +51,11 @@ div{
 
 section{
   min-width: 700px;
-  background-color: grey;
 }
 
 img{
   display: block;
-  border-radius: 50px;
+  border-radius: 30px;
   margin-left: auto;
   margin-right: auto;
   width: 500px;
@@ -103,8 +104,8 @@ header li a{
   }
 
   header li a:hover{
-    color: white;
-    transition: .3s;
+  color: white;
+  transition: .3s;
   }
 /*============================
 
@@ -123,16 +124,15 @@ Top Styling
   position: absolute;
   top: 0;
 }
-
 .top-content{
-  background:#e0d07b;
-  max-width: 80%;
-  min-width: 300px;
-  margin: 100px 300px;
+  background: grey;
+  opacity: 70%;
+  min-width: 500px;
+  margin: 150px 300px;
   padding: 20px 10px;
-  border: 7px solid #808080;
-  border-radius: 50px;
   overflow-x: hidden;
+  overflow-y: hidden;
+  z-index: 1;
 }
 /*============================
 
@@ -148,9 +148,12 @@ Body Styling
   position: absolute;
   min-width: 700px;
   top: 500px;
+  background-color: grey;
 }
 
 .Synopsis{
+  background-color: grey;
+  opacity: 70%;
   margin: auto;
   padding: 30px;
   align: center;
@@ -177,6 +180,7 @@ Body Styling
 
 #name{
   Font-style: italic;
+  color: red;
 }
 
 #title{
