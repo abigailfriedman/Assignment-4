@@ -113,7 +113,8 @@ thead{
 
 .top{
   background:#e0d07b;
-  max-width: 70%;
+  max-width: 80%;
+  min-width: 300px;
   margin: 100px 300px;
   padding: 20px 10px;
   border: 7px solid #808080;
