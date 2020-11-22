@@ -23,10 +23,15 @@ p{
   line-height: 30px;
 }
 
+h2:before, h2:after{
+  content: "--------------";
+  padding: 0 10px;
+  text-decoration: none;
+  }
+
 h2{
   color: white;
   text-align: left;
-  text-decoration: underline;
   line-height: 50px;
 }
 
@@ -49,17 +54,6 @@ h1{
 section{
   min-width: 700px;
   position:relative;
-}
-
-.first img{
-  display: block;
-  border-radius: 30px;
-  padding: 50px;
-  width: 500px;
-  height: auto;
-  float: right;.
-  margin-right: 10%;
-  margin-top: -6%;
 }
 
 /*============================
@@ -182,13 +176,25 @@ Intro Body Styling
   float: right;
   bottom: 1000px;
 }
+
+.first img{
+  display: block;
+  border-radius: 30px;
+  padding: 50px;
+  width: 500px;
+  height: auto;
+  float: right;.
+  margin-right: 10%;
+  margin-top: -6%;
+}
+
 /*============================
 
  Synopsis Styling
 
 
 *=========================*/
-.Synopsis{
+.synopsis{
   background-color: grey;
   opacity: 70%;
   margin: auto;
@@ -204,7 +210,7 @@ Intro Body Styling
 
 
 *=========================*/
-.Cast{
+.cast{
   background-color: grey;
   height: 400px;
   padding: 100px;
@@ -221,7 +227,7 @@ Awards Styling
 
 
 *=========================*/
-.Recption_and_Awards{
+.recption_and_awards{
   background: grey;
   opacity: 70%;
   margin: auto;
