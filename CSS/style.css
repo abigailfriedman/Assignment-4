@@ -140,7 +140,7 @@ Top Styling
   overflow-x: hidden;
   overflow-y: hidden;
   z-index: 1;
-  animation: word 15s linear .5s infinite normal;
+  animation: word 17s linear .5s infinite normal;
   position: absolute;
 }
 /*============================
@@ -153,7 +153,6 @@ Intro Body Styling
 .first {
   margin: auto;
   padding: 70px 30px;
-  align: center;
   position: relative;
   min-width: 700px;
   height: 500px;
@@ -181,7 +180,7 @@ Intro Body Styling
   padding: 50px;
   width: 500px;
   height: auto;
-  float: right;.
+  float: right;
   margin-right: 10%;
   margin-top: -6%;
 }
@@ -199,7 +198,6 @@ Intro Body Styling
   padding: 100px;
   height: 600px;
   min-width: 500px;
-  align: center;
   overflow: scroll;
 }
 /*============================
@@ -212,7 +210,6 @@ Intro Body Styling
   background-color: grey;
   height: 400px;
   padding: 100px;
-  align: center;
 }
 
 .table_cast {
@@ -230,7 +227,6 @@ Awards Styling
   opacity: 70%;
   margin: auto;
   padding: 100px;
-  align: center;
 }
 
 span {
@@ -240,7 +236,6 @@ span {
 
 .awards table {
   margin: 5px 200px;
-  align: center;
 }
 
 #name {
@@ -257,6 +252,6 @@ span {
     left: -1000px;
   }
   to {
-    left: 1600px;
+    left: 1100px;
   }
 }
