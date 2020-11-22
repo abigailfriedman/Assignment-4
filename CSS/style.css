@@ -4,7 +4,7 @@ Universal Styling
 
 
 *=========================*/
-*{
+* {
 padding: 0;
 margin: 0;
 border:0;
@@ -17,31 +17,31 @@ font-family: "Roboto", sans-serif;
   format('truetype');
 }
 
-p{
+p {
   color: white;
   font-size: 20px;
   line-height: 30px;
 }
 
-h2:before, h2:after{
+h2:before, h2:after {
   content: "--------------";
   padding: 0 10px;
   text-decoration: none;
   }
 
-h2{
+h2 {
   color: white;
   text-align: left;
   line-height: 50px;
 }
 
-h3{
+h3 {
   color: white;
   text-decoration: underline;
   line-height: 100px;
 }
 
-h1{
+h1 {
   color: white;
   text-align: center;
   font-weight: bold;
@@ -51,7 +51,7 @@ h1{
 }
 
 
-section{
+section {
   min-width: 700px;
   position:relative;
 }
@@ -62,16 +62,18 @@ Table Styling
 
 
 *=========================*/
-td,th,table{
+td,
+th,
+table {
   border: 3px solid black;
 }
 
-td{
+td {
   color: white;
   font-size: 20px;
 }
 
-thead{
+thead {
   font-style: italic;
   color: white;
 }
@@ -81,7 +83,7 @@ Header Styling
 
 
 *=========================*/
-header{
+header {
   background: black;
   opacity: 70%;
   text-align: center;
@@ -92,13 +94,13 @@ header{
   top: 0;
 }
 
-header li{
+header li {
   display: inline;
   width: 24%;
   padding: 15px;
 }
 
-header li a{
+header li a {
   color: grey;
   text-transform: uppercase;
   text-decoration: none;
@@ -108,7 +110,7 @@ header li a{
   transition: .3s;
   }
 
-  header li a:hover{
+  header li a:hover {
   color: white;
   transition: .3s;
   }
@@ -118,7 +120,7 @@ Top Styling
 
 
 *=========================*/
-.top{
+.top {
   background-image: url('../images/cast.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
@@ -129,7 +131,7 @@ Top Styling
   top: 0;
 }
 
-.top-content{
+.top-content {
   background: grey;
   opacity: 70%;
   min-width: 500px;
@@ -138,11 +140,7 @@ Top Styling
   overflow-x: hidden;
   overflow-y: hidden;
   z-index: 1;
-  animation-name: word;
-  animation-duration: 17s;
-  animation-timing-function: ease-in;
-  animation-direction: forward;
-  animation-iteration-count: infinite;
+  animation: word 15s linear .5s infinite normal;
   position: absolute;
 }
 /*============================
@@ -152,7 +150,7 @@ Intro Body Styling
 
 *=========================*/
 
-.first{
+.first {
   margin: auto;
   padding: 70px 30px;
   align: center;
@@ -163,7 +161,7 @@ Intro Body Styling
   z-index: 2;
 }
 
-.text{
+.text {
   margin: auto;
   min-width: 1000px;
   height: 400px;
@@ -172,12 +170,12 @@ Intro Body Styling
   z-index: 3;
 }
 
-.text img{
+.text img {
   float: right;
   bottom: 1000px;
 }
 
-.first img{
+.first img {
   display: block;
   border-radius: 30px;
   padding: 50px;
@@ -194,7 +192,7 @@ Intro Body Styling
 
 
 *=========================*/
-.synopsis{
+.synopsis {
   background-color: grey;
   opacity: 70%;
   margin: auto;
@@ -210,14 +208,14 @@ Intro Body Styling
 
 
 *=========================*/
-.cast{
+.cast {
   background-color: grey;
   height: 400px;
   padding: 100px;
   align: center;
 }
 
-.table_cast{
+.table_cast {
   position: absolute;
   right: auto;
 }
@@ -227,7 +225,7 @@ Awards Styling
 
 
 *=========================*/
-.reception_and_awards{
+.reception_and_awards {
   background: grey;
   opacity: 70%;
   margin: auto;
@@ -235,22 +233,22 @@ Awards Styling
   align: center;
 }
 
-span{
+span {
   color: black;
   font-style: italic;
 }
 
-.awards table{
+.awards table {
   margin: 5px 200px;
   align: center;
 }
 
-#name{
+#name {
   Font-style: italic;
   color: red;
 }
 
-#title{
+#title {
   text-transform: uppercase;
 }
 
